@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.laboratorio.ciclodevida">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Principal" />
+        <activity android:name=".Calculadora" />
+        <activity android:name=".ListMain">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Exercicio1Tela1" />
+        <activity android:name=".Exercicio1Tela2" />
+        <!--
+     ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".Exercicio6Tela1" />
+        <activity android:name=".Exercicio6Tela2" />
+        <activity android:name=".Exercicio2Tela1" />
+        <activity android:name=".Exercicio2Tela2" />
+        <activity android:name=".Exercicio3Tela1" />
+        <activity android:name=".Exercicio3Tela2" />
+        <activity android:name=".Exercicio4Tela1" />
+        <activity android:name=".Exercicio4Tela2" />
+        <activity android:name=".Exercicio5Tela1" />
+        <activity android:name=".Exercicio5Tela2" />
+        <activity android:name=".Exercicio7Tela1" />
+        <activity android:name=".Exercicio7Tela2" />
+        <activity android:name=".Exercicio9Tela1" />
+        <activity android:name=".Exercicio9Tela2" />
+        <activity android:name=".Exercicio4Tela3" />
+        <activity android:name=".Exercicio10Tela1" />
+        <activity android:name=".Exercicio11Tela2" />
+        <activity android:name=".Exercicio11Tela1" />
+        <activity android:name=".Exercicio13Tela1" />
+        <activity android:name=".Exercicio14Tela1" />
+        <activity android:name=".Exercicio15Tela1" />
+        <activity android:name=".Exercicio10Tela2" />
+        <activity android:name=".Exercicio12Tela2" />
+        <activity android:name=".Exercicio13Tela2" />
+        <activity android:name=".Exercicio14Tela2" />
+        <activity android:name=".Exercicio15Tela2" />
+    </application>
+
+</manifest>
